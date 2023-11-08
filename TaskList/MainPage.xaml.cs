@@ -10,12 +10,6 @@ namespace TaskList
         {
             InitializeComponent();
 
-
-            //toCreateTask.Clicked += ToCreateTaskPage;
-
-            //Content = new StackLayout { Children = { toCreateTask } };
-            
-
         } 
             private async void ToCreateTaskPage(object? sender, EventArgs e)
             {

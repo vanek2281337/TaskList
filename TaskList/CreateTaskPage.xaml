@@ -5,8 +5,18 @@
              Title="CreateTaskPage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="You task"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Entry 
+            x:Name="Task"
+            Placeholder ="Enter you task"
+            Margin ="0, 15, 0, 0"
+            TextColor="white"/>
+        <Entry
+            x:Name="Description"
+            TextColor="white"
+            Placeholder="Enter you description"
+            Margin="0, 15, 0, 0"/>
     </VerticalStackLayout>
 </ContentPage>
