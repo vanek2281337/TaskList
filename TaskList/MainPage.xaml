@@ -27,7 +27,8 @@
             <Button
                 x:Name="CounterBtn"
                 Text="Create"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="ToCreateTaskPage"/>
 
         </VerticalStackLayout>
     </ScrollView>
