@@ -9,14 +9,20 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Entry 
-            x:Name="Task"
+            x:Name="Title"
+            Text=""
             Placeholder ="Enter you task"
             Margin ="0, 15, 0, 0"
             TextColor="white"/>
         <Entry
             x:Name="Description"
+            Text=""
             TextColor="white"
             Placeholder="Enter you description"
             Margin="0, 15, 0, 0"/>
+        <Button 
+            Clicked="Send__Click"
+            Text="Отправить"
+            />
     </VerticalStackLayout>
 </ContentPage>

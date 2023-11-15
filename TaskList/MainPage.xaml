@@ -20,7 +20,6 @@
             <Label
                 Text="Do you want create new page?"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
